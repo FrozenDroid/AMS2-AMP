@@ -1,7 +1,7 @@
 Meta.DisplayName=AMS2 dedicated server
 Meta.Description=
 Meta.Arch=x86_64
-Meta.Author= - Made with AMP Config Generator
+Meta.Author=FrozenDroid - Made with AMP Config Generator
 Meta.URL=
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=cubecoders/ampbase:xvfb
@@ -10,7 +10,7 @@ Meta.ContainerPolicy=Supported
 Meta.ContainerPolicyReason=
 Meta.Prerequsites=[]
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
-Meta.AppConfigId=212b09c6-04e7-4d38-9add-47af19d006ff
+Meta.AppConfigId=a074dbb8-f7d6-4b00-8fd5-465912e39c88
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
