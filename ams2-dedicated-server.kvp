@@ -81,4 +81,4 @@ App.ExecutableLinux=/usr/bin/xvfb-run
 App.LinuxCommandLineArgs=-a wine "./DedicatedServerCmd.exe" 
 App.Ports=@IncludeJson[ams2-dedicated-serverports.json]
 App.UpdateSources=@IncludeJson[ams2-dedicated-serverupdates.json]
-App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win32", "WINEDEBUG": "-all"}
